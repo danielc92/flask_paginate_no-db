@@ -1,4 +1,4 @@
-# Project Title
+# Flask Pagination (no db)
 This project aims to establish a `flask` web application utilizing pagination without the need for a database system. This project is similar to [flask-pagination](https://github.com/danielc92/flask_pagination) (which uses sqlite database). `flask_paginate` library will be used on top of `flask` to achieve pagination with objects such as python lists and dictionaries.
 
 # Before you get started
