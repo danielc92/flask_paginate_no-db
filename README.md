@@ -1,36 +1,36 @@
 # Project Title
-A few sentences about the project.
-What are you building?
-What problem are you trying to solve?
-Who is the project for? Timeframe?
+This project aims to establish a `flask` web application utilizing pagination without the need for a database system. This project is similar to [flask-pagination](https://github.com/danielc92/flask_pagination) (which uses sqlite database). `flask_paginate` library will be used on top of `flask` to achieve pagination with objects such as python lists and dictionaries.
 
 # Before you get started
-Concepts/Software/Programming modules a user may have to read up on before getting started with this project. eg. 'Read about [neural networks](https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6?gi=44b811975215) before getting started.'
+Having knowledge about flask and pagination is essential for this project.
 
 # Setup
 **How to obtain this repository:**
 ```sh
-git clone https//link.to.this.projects.git-repo
+git clone https://github.com/danielc92/flask_pagination_noalchemy.git
 ```
 **Modules/dependencies:**
-- `pandas`
-- `requests`
-- `jupyter`
-- `sklearn`
+- `flask`
+- `flask_paginate`
 
-Install the following dependences:
+or
+
 ```sh
-cd /local/location/of/this/repo
-pip install requirements.txt
+pip install flask flask_paginate
+```
+
+**To run locally**
+(may be `python` depending on your installation)
+```sh
+python3 main.py
 ```
 
 # Tests
-- Tests performed on this project. What did you do? Which files were used? Was it successful?
+- Paginated a list of dictionaries within a `flask` app.
 
 # Contributors
-- Name of Contributor 1
-- Name of Contributor 2
+- Daniel Corcoran
 
 # Sources
-- Sources for techniques/tutorials used in this project to help newcomers
-- Sources for data used in this project
+- [flask-paginate documentation](http://flask.pocoo.org/)
+- [flask-paginate documentation](https://pythonhosted.org/Flask-paginate/)
