@@ -32,5 +32,5 @@ python3 main.py
 - Daniel Corcoran
 
 # Sources
-- [flask-paginate documentation](http://flask.pocoo.org/)
+- [flask documentation](http://flask.pocoo.org/)
 - [flask-paginate documentation](https://pythonhosted.org/Flask-paginate/)
